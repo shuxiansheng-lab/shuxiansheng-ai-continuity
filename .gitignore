@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local runtime data
+*.db
+*.sqlite
+chat_history.json
+inbox.json
+today_events.json
+location.json
+pending_reply.json
+self_triggers.json
+action_log.json
+
+# User content
+images/
+drafts/
+documents/
+icons/
+feed_inbox/
+*_archived/
+
+# Private prompts (templates are tracked, custom prompts are not)
+prompts/system_prompt.txt
+
+# Secrets / local config
+.env
+*.local
+env.bat
+secrets.*
+config.private.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
